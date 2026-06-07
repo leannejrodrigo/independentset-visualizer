@@ -102,7 +102,8 @@ python3 -m http.server 8080
 ```
 independentset-visualizer/
 ├── index.html          # entire application — HTML, CSS, and JS in one file
-├── report.pdf          # full written analysis (BCS 309 — Algorithms I)
+├── report/
+│   └── 20210001983_Rodrigo_assignment.pdf   # full written analysis (BCS 309 — Algorithms I)
 └── README.md
 ```
 
@@ -114,7 +115,7 @@ This visualizer was developed as a companion tool for **BCS 309 — Algorithms I
 
 The accompanying written report provides the full formal analysis behind everything implemented in this tool.
 
-📄 **[View Full Analysis (PDF)](./report.pdf)**
+📄 **[View Full Analysis (PDF)](./report/20210001983_Rodrigo_assignment.pdf)**
 
 The report covers:
 - Formal problem statement with YES and NO examples
