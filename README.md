@@ -102,6 +102,7 @@ python3 -m http.server 8080
 ```
 independentset-visualizer/
 ├── index.html          # entire application — HTML, CSS, and JS in one file
+├── report.pdf          # full written analysis (BCS 309 — Algorithms I)
 └── README.md
 ```
 
@@ -111,7 +112,11 @@ independentset-visualizer/
 
 This visualizer was developed as a companion tool for **BCS 309 — Algorithms I** at the School of Engineering, Applied Sciences and Technology, under the supervision of Dr. Arash Kermani.
 
-The accompanying written report covers:
+The accompanying written report provides the full formal analysis behind everything implemented in this tool.
+
+📄 **[View Full Analysis (PDF)](./report.pdf)**
+
+The report covers:
 - Formal problem statement with YES and NO examples
 - Brute-force analysis: why the 2ⁿ factor arises from subset enumeration
 - Polynomial-time verifier: O(n²) pairwise check establishing IS ∈ NP
